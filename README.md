@@ -1,19 +1,19 @@
 # se-intern-assignment
 # Data Structures & Systems Design Assignment
 
-## Problems
-1. LRU Cache Implementation
-2. Event Scheduler
+## Problem 1: LRU Cache
+Implemented an LRU Cache using a HashMap and Doubly Linked List to achieve O(1) time complexity for get() and put() operations.
 
-## Language
-Python
+## Problem 2: Event Scheduler
+Implemented functions to:
+- Check if a person can attend all events
+- Calculate minimum number of meeting rooms required
+
+## Files
+lru_cache.py – LRU Cache implementation  
+event_scheduler.py – Event scheduling algorithms  
 
 ## How to Run
 
 python lru_cache.py
 python event_scheduler.py
-
-## Explanation
-Includes O(1) LRU cache using hashmap + doubly linked list.
-
-Event scheduler calculates overlap and minimum rooms required.
